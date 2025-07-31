@@ -1,0 +1,208 @@
+{
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit",
+    "download": "Download",
+    "loading": "Loading...",
+    "error": "Error occurred",
+    "success": "Success"
+  },
+  "header": {
+    "title": "Happiness Calculator",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Discover Your Happiness Score",
+    "subtitle": "A scientific assessment based on objective indicators to measure your life satisfaction and well-being",
+    "description": "Our happiness calculator evaluates your life satisfaction through 6 key dimensions: economic strength, social status, health condition, assets, family situation, and personal habits. Get your personalized happiness report now!",
+    "startTest": "Start Assessment",
+    "features": {
+      "objective": "Objective Indicators",
+      "objectiveDesc": "Based on quantifiable data, not subjective feelings",
+      "comprehensive": "Comprehensive Analysis",
+      "comprehensiveDesc": "6 dimensions, 14 questions for thorough evaluation",
+      "personalized": "Personalized Report",
+      "personalizedDesc": "Generate beautiful poster with your happiness score"
+    }
+  },
+  "survey": {
+    "title": "Happiness Assessment",
+    "progress": "Question {{current}} of {{total}}",
+    "country": "Select Your Country",
+    "countryPlaceholder": "Choose your country...",
+    "questions": {
+      "income": "What is your annual income? (USD)",
+      "savings": "What is your savings amount? (USD)",
+      "investments": "What is your total investment assets value? (USD)",
+      "position": "What is your job position level?",
+      "education": "What is your highest education level?",
+      "diseases": "How many chronic diseases do you currently have?",
+      "bmi": "What is your BMI index?",
+      "properties": "How many properties do you own?",
+      "vehicles": "What is the total value of your vehicles? (USD)",
+      "marriage": "What is your marital status?",
+      "travel": "How many times do you travel per year?",
+      "entertainment": "What are your common entertainment activities? (Multiple choice)",
+      "children": "If you have children, how do you feel about their academic performance?",
+      "hobbies": "How many hours per week do you spend on personal hobbies?"
+    },
+    "options": {
+      "income": {
+        "0-30k": "$0 - $30,000",
+        "30k-60k": "$30,001 - $60,000",
+        "60k-100k": "$60,001 - $100,000",
+        "100k-200k": "$100,001 - $200,000",
+        "200k+": "$200,000+"
+      },
+      "savings": {
+        "0-10k": "$0 - $10,000",
+        "10k-50k": "$10,001 - $50,000",
+        "50k-100k": "$50,001 - $100,000",
+        "100k-500k": "$100,001 - $500,000",
+        "500k+": "$500,000+"
+      },
+      "investments": {
+        "0": "$0",
+        "1-50k": "$1 - $50,000",
+        "50k-200k": "$50,001 - $200,000",
+        "200k-1m": "$200,001 - $1,000,000",
+        "1m+": "$1,000,000+"
+      },
+      "position": {
+        "unemployed": "Unemployed/Student",
+        "employee": "Regular Employee",
+        "supervisor": "Supervisor/Team Lead",
+        "executive": "Executive/Director",
+        "owner": "Owner/CEO/Founder"
+      },
+      "education": {
+        "highschool": "High School or Below",
+        "college": "College/Vocational School",
+        "bachelor": "Bachelor's Degree",
+        "master": "Master's Degree",
+        "phd": "PhD Degree"
+      },
+      "diseases": {
+        "5+": "5 or more",
+        "3-4": "3-4 types",
+        "1-2": "1-2 types",
+        "0-risk": "0, but with health risks",
+        "0-healthy": "0, completely healthy"
+      },
+      "bmi": {
+        "unhealthy": "<18.5 or >30",
+        "poor": "18.5-20 or 27-30",
+        "fair": "20-22 or 25-27",
+        "good": "22-24 or 24-25",
+        "excellent": "22-24 (optimal range)"
+      },
+      "properties": {
+        "0": "0 (renting)",
+        "1": "1 (own residence)",
+        "2": "2 properties",
+        "3-5": "3-5 properties",
+        "5+": "5+ properties"
+      },
+      "vehicles": {
+        "0": "$0 (no vehicle)",
+        "1-20k": "$1 - $20,000",
+        "20k-50k": "$20,001 - $50,000",
+        "50k-100k": "$50,001 - $100,000",
+        "100k+": "$100,000+"
+      },
+      "marriage": {
+        "divorced": "Divorced/Widowed",
+        "single": "Single",
+        "dating": "In a relationship",
+        "married-no-kids": "Married without children",
+        "married-with-kids": "Married with children"
+      },
+      "travel": {
+        "0": "0 times",
+        "1-2": "1-2 times",
+        "3-4": "3-4 times",
+        "5-6": "5-6 times",
+        "7+": "7+ times"
+      },
+      "entertainment": {
+        "movies": "Movies/TV shows",
+        "sports": "Sports/Fitness",
+        "reading": "Reading books",
+        "gaming": "Gaming",
+        "music": "Listening to music",
+        "socializing": "Social gatherings",
+        "shopping": "Shopping",
+        "cooking": "Cooking",
+        "photography": "Photography",
+        "others": "Other hobbies"
+      },
+      "children": {
+        "very-proud": "Very proud",
+        "satisfied": "Quite satisfied",
+        "average": "Average",
+        "worried": "Somewhat worried",
+        "unsatisfied": "Very unsatisfied",
+        "no-children": "No children"
+      },
+      "hobbies": {
+        "0-2": "0-2 hours",
+        "3-5": "3-5 hours",
+        "6-10": "6-10 hours",
+        "11-15": "11-15 hours",
+        "16+": "16+ hours"
+      }
+    }
+  },
+  "results": {
+    "title": "Your Happiness Score",
+    "totalScore": "Total Score",
+    "outOf100": "out of 100",
+    "level": "Happiness Level",
+    "analysis": "Detailed Analysis",
+    "dimensions": {
+      "economic": "Economic Strength",
+      "social": "Social Status",
+      "health": "Health Condition",
+      "assets": "Asset Status",
+      "family": "Family Situation",
+      "lifestyle": "Lifestyle & Psychology"
+    },
+    "levels": {
+      "winner": "Life Winner",
+      "successful": "Successful Person",
+      "middle": "Middle Class",
+      "ordinary": "Ordinary Citizen",
+      "struggling": "Need Improvement"
+    },
+    "levelDescriptions": {
+      "winner": "Congratulations! You have achieved excellence in multiple life dimensions and enjoy a very high level of happiness.",
+      "successful": "Great! You have good performance in most areas and maintain a high quality of life.",
+      "middle": "Not bad! You have a stable life foundation with room for improvement in some areas.",
+      "ordinary": "You have basic life security but there's significant room for improvement in happiness.",
+      "struggling": "Don't give up! Focus on improving key areas to enhance your overall happiness."
+    },
+    "generatePoster": "Generate Poster",
+    "retakeTest": "Retake Test"
+  },
+  "poster": {
+    "title": "My Happiness Report",
+    "subtitle": "Scientific Assessment Results",
+    "score": "Happiness Score",
+    "level": "Level",
+    "date": "Assessment Date",
+    "dimensions": "Dimension Scores",
+    "footer": "Generated by Happiness Calculator",
+    "downloadPoster": "Download Poster",
+    "shareResults": "Share Results"
+  },
+  "countries": {
+    "US": "United States",
+    "CN": "China",
+    "JP": "Japan",
+    "DE": "Germany",
+    "CH": "Switzerland",
+    "IN": "India",
+    "TH": "Thailand"
+  }
+}
