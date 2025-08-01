@@ -233,7 +233,7 @@ export const Poster: React.FC = () => {
                   {Object.entries(dimensionScores).map(([dimension, score]) => {
                     const IconComponent = getDimensionIcon(dimension);
                     const weight = DIMENSION_WEIGHTS[dimension as keyof typeof DIMENSION_WEIGHTS] || 0;
-                    const percentage = (score / 5) * 100;
+                    const percentage = (score / (100 * weight)) * 100;
                     
                     return (
                       <div

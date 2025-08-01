@@ -218,7 +218,7 @@ export const Result: React.FC = () => {
             {Object.entries(dimensionScores).map(([dimension, score]) => {
               const IconComponent = getDimensionIcon(dimension);
               const weight = DIMENSION_WEIGHTS[dimension as keyof typeof DIMENSION_WEIGHTS] || 0;
-              const percentage = (score / 5) * 100;
+              const percentage = (score / (100 * weight)) * 100;
               
               return (
                 <div
@@ -242,7 +242,7 @@ export const Result: React.FC = () => {
                         {score.toFixed(1)}
                       </div>
                       <div className="text-white/70 text-sm">
-                        / 5.0
+                        / {weight * 100}
                       </div>
                     </div>
                   </div>
@@ -276,14 +276,6 @@ export const Result: React.FC = () => {
             </button>
             
             <button
-              onClick={handleShare}
-              className="flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm text-white px-6 py-4 rounded-2xl font-semibold hover:bg-white/30 transition-all duration-200"
-            >
-              <Share2 className="w-5 h-5" />
-              Share Results
-            </button>
-            
-            <button
               onClick={handleRestart}
               className="flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm text-white px-6 py-4 rounded-2xl font-semibold hover:bg-white/30 transition-all duration-200"
             >
@@ -293,19 +285,6 @@ export const Result: React.FC = () => {
           </div>
         </div>
 
-        {/* 建议和提示 */}
-        <div className="max-w-2xl mx-auto mt-8">
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-            <h4 className="text-lg font-semibold text-white mb-3">
-              {t('result.suggestions.title')}
-            </h4>
-            <div className="space-y-2 text-white/90 text-sm">
-              <p>{t(`result.suggestions.${level}.tip1`)}</p>
-              <p>{t(`result.suggestions.${level}.tip2`)}</p>
-              <p>{t(`result.suggestions.${level}.tip3`)}</p>
-            </div>
-          </div>
-        </div>
       </main>
 
       {/* 背景装饰 */}
